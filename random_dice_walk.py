@@ -16,6 +16,6 @@ def random_dice_walk_func(n):
         
         random_walk.append(step)
     
-    return random_walk
+    return np.array(random_walk)
 
 
