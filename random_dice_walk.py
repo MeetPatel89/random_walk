@@ -18,4 +18,9 @@ def random_dice_walk_func(n):
     
     return np.array(random_walk)
 
-
+def all_walks(n, m):
+    all_walks_arr = []
+    for i in np.arange(n):
+        all_walks_arr.append(random_dice_walk_func(m))
+    
+    return np.array(all_walks_arr)
